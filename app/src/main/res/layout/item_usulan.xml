@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/txt_no_surat"
+            android:textSize="14sp"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor surat     : " />
+
+        <TextView
+            android:layout_toEndOf="@id/txt_no_surat"
+            android:textSize="14sp"
+            android:layout_margin="10dp"
+            android:id="@+id/no_surat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memuat data..." />
+
+
+        <TextView
+            android:layout_below="@id/txt_no_surat"
+            android:id="@+id/txt_kelompok"
+            android:textSize="14sp"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kelompok Tani : " />
+
+
+        <TextView
+            android:layout_toRightOf="@id/txt_kelompok"
+            android:layout_below="@id/no_surat"
+            android:layout_margin="10dp"
+            android:id="@+id/kelompok_tani"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memuat data..."
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_below="@id/txt_kelompok"
+            android:id="@+id/txt_status"
+            android:textSize="14sp"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status : " />
+
+        <TextView
+            android:layout_toRightOf="@id/txt_status"
+            android:textSize="14sp"
+            android:layout_below="@id/kelompok_tani"
+            android:layout_centerVertical="true"
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Memuat data..."
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <View
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp">
+
+    </View>
+
+
+</LinearLayout>

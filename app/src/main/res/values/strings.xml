@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">akps</string>
+    <string name="input_offline">Jaringan tidak ada atau ganggung, Data telah di simpan di lokal</string>
+</resources>
